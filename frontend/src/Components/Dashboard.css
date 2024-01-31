@@ -1,0 +1,41 @@
+#dashboard-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+#unauthorized-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#dashboard-container .logout-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1%;
+}
+
+#dashboard-container .table-div {
+  padding: 2%;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 50px;
+}
+.profile-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-actions svg {
+  border-right: none;
+  cursor: pointer;
+}
